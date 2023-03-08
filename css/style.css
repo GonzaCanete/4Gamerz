@@ -40,4 +40,12 @@
   background-color: orange;
 }
 
+.carousel-inner {
+  margin-top: -1vh;
+  height: 50vh;
+}
+.carousel-inner img {
+  height: 50vh;
+}
+
 /*# sourceMappingURL=style.css.map */
