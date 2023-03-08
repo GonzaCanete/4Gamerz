@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: black;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+  margin-top: -1vh;
+}
+.container-fluid .collapse {
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid .collapse a {
+  color: orange;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-decoration: double;
+}
+.container-fluid .collapse .nav-link:hover {
+  background-color: orange;
+  color: black;
+}
+.container-fluid .navbar-brand {
+  color: orange;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-decoration: double;
+}
+.container-fluid .navbar-brand:hover {
+  background-color: orange;
+  color: black;
+}
+
+.navbar-toggler {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
