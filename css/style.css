@@ -154,4 +154,19 @@ footer h4 {
   font-family: "Montserrat", sans-serif;
 }
 
+@media (max-width: 991px) {
+  .carousel-inner {
+    visibility: hidden;
+  }
+  .grid_container {
+    grid-template-columns: 1fr;
+    margin-top: -50vh;
+  }
+}
+@media (max-width: 991px) and (max-width: 391px) {
+  .article_container {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
