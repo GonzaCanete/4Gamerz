@@ -339,4 +339,14 @@ footer h4 {
   font-weight: 600;
 }
 
+.img_ranking_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img_ranking_container img {
+  width: 40%;
+  height: 60vh;
+}
+
 /*# sourceMappingURL=style.css.map */
