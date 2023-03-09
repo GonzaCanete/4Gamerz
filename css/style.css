@@ -106,7 +106,8 @@ article h1 {
   border-radius: 10px;
 }
 .article_container .firstColumn img:hover {
-  opacity: 0.9;
+  opacity: 0.7;
+  transition: opacity 1s;
 }
 .article_container .secondColumn img {
   width: 100%;
@@ -117,7 +118,8 @@ article h1 {
   font-size: 15px;
 }
 .article_container .secondColumn img:hover {
-  opacity: 0.9;
+  opacity: 0.7;
+  transition: opacity 1s;
 }
 .article_container h2 {
   font-size: 25px;
@@ -126,6 +128,7 @@ article h1 {
 }
 .article_container h2:hover {
   text-decoration: underline 3px solid orange;
+  transition: text-decoration 1s;
 }
 .article_container h3 {
   font-size: 15px;
@@ -155,7 +158,7 @@ footer h4 {
 }
 
 @media (max-width: 991px) {
-  .carousel-inner {
+  #carouselExampleInterval {
     visibility: hidden;
   }
   .grid_container {
@@ -166,6 +169,64 @@ footer h4 {
 @media (max-width: 991px) and (max-width: 391px) {
   .article_container {
     grid-template-columns: 1fr;
+  }
+}
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1vw;
+}
+.card_container img {
+  border-radius: 5px;
+}
+.card_container img:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 1s;
+}
+.card_container .card {
+  width: 18rem;
+}
+.card_container .card-body h5 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline 3px solid orange;
+}
+.card_container .card-body h6 {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(201, 196, 196);
+}
+.card_container .card-body p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.month {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline 3px solid orange;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 991px) {
+  .card_container {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23vw;
+  }
+  .card_container .card {
+    width: 50vw;
+  }
+  #leftAside {
+    width: 0;
+    height: 0;
+  }
+  #mainColumn {
+    width: 100vw;
   }
 }
 

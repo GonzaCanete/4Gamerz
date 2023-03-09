@@ -107,7 +107,8 @@ article h1{
         }
     }
     .firstColumn img:hover{
-        opacity: 0.9;
+        opacity: 0.7;
+        transition: opacity 1s;
     }
     .secondColumn {
         img {
@@ -118,9 +119,12 @@ article h1{
             font-family: 'Montserrat', sans-serif;
             font-size: 15px;
         }
+        
     }
     .secondColumn img:hover{
-        opacity: 0.9;
+        opacity: 0.7;
+        transition: opacity 1s;
+        
     }
     h2 {
         font-size: 25px;
@@ -129,6 +133,7 @@ article h1{
     }
     h2:hover{
         text-decoration: underline 3px solid orange;
+        transition: text-decoration 1s;
     }
     h3 {
         font-size: 15px;
@@ -159,7 +164,7 @@ footer {
 }
 
 @media (max-width: 991px){
-    .carousel-inner{
+    #carouselExampleInterval{
         visibility: hidden;
     }
     .grid_container{
