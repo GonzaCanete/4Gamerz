@@ -81,6 +81,7 @@ article h1 {
   font-size: 30px;
   text-align: center;
   margin-top: 3vh;
+  margin-bottom: 5vh;
   font-family: "Montserrat", sans-serif;
   text-decoration: underline 3px solid orange;
   text-transform: uppercase;
@@ -91,6 +92,10 @@ article h1 {
   grid-template-columns: 2fr 2fr;
   column-gap: 1vw;
   margin-top: 10vh;
+}
+.article_container a {
+  color: rgb(30, 30, 30);
+  text-decoration: none;
 }
 .article_container .firstColumn img {
   width: 100%;
@@ -228,6 +233,37 @@ footer h4 {
   #mainColumn {
     width: 100vw;
   }
+}
+.img_container {
+  margin-top: 2vh;
+  position: relative;
+}
+.img_container img {
+  width: 100%;
+  border-radius: 10px;
+  height: 30vh;
+  image-rendering: crisp-edges;
+  box-shadow: inset -20px -20px 20px black;
+}
+.img_container h2 {
+  font-size: 40px;
+  font-family: "Tilt Neon", cursive;
+  position: absolute;
+  bottom: 0;
+  color: orange;
+  text-decoration: underline 3px solid orange;
+  margin-left: 2vw;
+}
+
+.p_analisis {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3vh;
+}
+
+#final {
+  border-bottom: 5px solid orange;
+  margin-bottom: 10vh;
 }
 
 /*# sourceMappingURL=style.css.map */

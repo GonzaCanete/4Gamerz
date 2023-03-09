@@ -81,6 +81,7 @@ article h1{
     font-size: 30px;
     text-align: center;
     margin-top: 3vh;
+    margin-bottom: 5vh;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline 3px solid orange;
     text-transform: uppercase;
@@ -91,6 +92,10 @@ article h1{
     grid-template-columns: 2fr 2fr;
     column-gap: 1vw;
     margin-top: 10vh;
+    a {
+        color: rgb(30, 30, 30);
+        text-decoration: none;
+    }
     .firstColumn {
         img {
         width: 100%;
