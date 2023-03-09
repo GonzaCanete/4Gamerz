@@ -250,9 +250,11 @@ footer h4 {
   font-family: "Tilt Neon", cursive;
   position: absolute;
   bottom: 0;
-  color: orange;
+  color: white;
+  width: 90%;
   text-decoration: underline 3px solid orange;
   margin-left: 2vw;
+  background-color: rgba(41, 40, 40, 0.515);
 }
 
 .p_analisis {
