@@ -290,6 +290,14 @@ footer h5 {
   margin-bottom: 10vh;
 }
 
+@media (max-width: 991px) {
+  #final {
+    display: none;
+  }
+  .p_analisis {
+    border-bottom: 3px solid orange;
+  }
+}
 #register {
   text-align: center;
   font-family: "Montserrat", sans-serif;
