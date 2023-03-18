@@ -161,23 +161,6 @@ footer h4 {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
-footer ion-icon {
-  margin-right: 0.5vw;
-}
-footer .min_footer {
-  display: flex;
-  margin-top: 1vh;
-  justify-content: center;
-  align-items: center;
-  gap: 4vw;
-}
-footer h5 {
-  text-align: center;
-  color: orange;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 2vh;
-}
 
 @media (max-width: 991px) {
   #carouselExampleInterval {
@@ -408,4 +391,4 @@ footer h5 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=estilo.css.map */
