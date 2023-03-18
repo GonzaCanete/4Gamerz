@@ -297,6 +297,9 @@ footer h5 {
   .p_analisis {
     border-bottom: 3px solid orange;
   }
+  article {
+    margin-top: 5vh;
+  }
 }
 #register {
   text-align: center;
