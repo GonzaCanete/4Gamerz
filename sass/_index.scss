@@ -198,6 +198,12 @@ footer {
         .article_container{
             grid-template-columns: 1fr;
         }
+        footer {
+            h5 {
+                visibility: hidden;
+                margin-top: -2vh;
+            }
+        }
     }
 }
 
