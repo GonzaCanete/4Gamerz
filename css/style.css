@@ -233,7 +233,7 @@ footer h5 {
 
 @media (max-width: 991px) {
   .card_container {
-    width: 90vw;
+    width: 50vw;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -249,6 +249,7 @@ footer h5 {
   }
   #mainColumn {
     width: 100vw;
+    padding: -10px;
   }
 }
 .img_container {
