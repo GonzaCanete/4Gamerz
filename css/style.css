@@ -190,6 +190,10 @@ footer h5 {
   #carouselExampleInterval {
     visibility: hidden;
   }
+  .container-fluid #logo_imagen {
+    width: 50vw;
+    image-rendering: optimizeQuality;
+  }
   .grid_container {
     grid-template-columns: 1fr;
     margin-top: -50vh;
